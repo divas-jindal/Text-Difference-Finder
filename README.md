@@ -1,4 +1,4 @@
-# Text-Difference-Finder
+# Text Difference Finder
 • Created a JavaScript program to compare text to find the difference between two strings.
 
 • Used Dynamic Programming (memoized) approach to find the Longest Common Sub-sequence.
