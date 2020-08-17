@@ -32,8 +32,11 @@
       let testSet2 = ["Pazte or loaad your 1st text here",
                       "Paste or load your 2nd text here",
                       "Paste or load your 2nd text here", true];
+      let testSet3 = ["5 6 7 8 9",
+                      "5 8 9 8 9",
+                      "5 8 9", false];
       // let testSets = [testSet0];
-      let testSets = [testSet0, testSet1, testSet2];
+      let testSets = [testSet0, testSet1, testSet2, testSet3];
 
       testSets.forEach(function(testSet) {
         document.getElementById("results").innerHTML +=
@@ -46,9 +49,7 @@
         `<p>
           <div><span class='bold-italic'>Original text: </span>${original}</div>
           <div><span class='bold-italic'>Edited text: </span>${edited}</div>
-          <div><span class='bold-italic'>Expected result: </span>${expected}</div>
-          <div><span class='bold-italic'>Actual result: </span>${textDiffResult.lcs}</div>
-          <div><span class='bold-italic'>Deleted: </span>${textDiffResult.deleted}</div>
+         <div><span class='bold-italic'>Deleted: </span>${textDiffResult.deleted}</div>
           <div><span class='bold-italic'>Added: </span>${textDiffResult.added}</div>
         </p>`;
         return result;
