@@ -7,4 +7,4 @@
 
 • Developed an Algorithm resembling the diff feature of Git Version Control.
 
-![Screenshot (56)](https://user-images.githubusercontent.com/35419120/61978126-0287dd80-b00e-11e9-981f-0e71b20b12e5.png)
+![Screenshot (56)](https://github.com/divas-jindal/Text-Difference-Finder/blob/master/textfinder.PNG)
